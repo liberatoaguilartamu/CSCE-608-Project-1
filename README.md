@@ -83,22 +83,32 @@ A web application for users to participate in daily polls about local bars. User
 5. Open your browser and go to `http://localhost:3000`
 
 ## Project Structure
-TODO: More detail
 - **`/pages`**: Contains all application pages
+   - `groups.vue`: Users manage their groups
+   - `index.vue`: Shows login or sign up buttons
+   - `login.vue`: Phone and password input
+   - `polling.vue`: Shows city or group-specific polls, users can vote
+   - `profile.vue`: Edit user info, view vote history
+   - `signup.vue`: Create a new user
 - **`/server/api`**: API endpoints and database connection
+   - `/auth`: Handles signup and login
+   - `/cities`: Handles getting cities
+   - `/groups`: Handles creating, reading, updating, deleting, leaving, joining, and inviting into groups
+   - `/polls` and `/polls/vote`: Handles gathering poll and vote info, and user voting
+   - `/user`: Handles user's groups, vote history, profile editing
+   - `db.js`: Database connection
 - **`/database`**: Database seed scripts
 - **`/assets`**: Static assets like CSS
 
 ## Database Schema
-TODO: Relation format (mention BCNF?)
 The application uses the following database tables:
-- City: Stores information about supported cities
-- AppUser: Stores user information
-- Bar: Stores bar information for each city
-- UserGroup: Manages groups created by users
-- GroupMembership: Tracks group members and invitations
-- Poll: Defines polls (city or group-specific)
-- Vote: Records user votes
+- City(_city_id_, name): Stores information about supported cities
+- AppUser(_user_id_, _phone_number_, name, password, city_id, anonymous_flag): Stores user information
+- Bar(_bar_id_, name, city_id): Stores bar information for each city
+- UserGroup(_group_id_, group_name, admin_id, city_id): Manages groups created by users
+- GroupMembership(_group_id_, _user_id_, status): Tracks group members and invitations
+- Poll(_poll_id_, poll_date, poll_type, city_id, group_id): Defines polls (city or group-specific)
+- Vote(_vote_id_, user_id, poll_id, bar_id, time_voted): Records user votes
 
 ## Sample Data
 
