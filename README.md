@@ -30,7 +30,7 @@ A web application for users to participate in daily polls about local bars. User
 
 1. Clone the repository:
    ```
-   git clone https://github.com/liberatoaguilartamu/CSCE-608-Project-1/blob/main/README.md
+   git clone https://github.com/liberatoaguilartamu/CSCE-608-Project-1
    cd local-bar-polling
    ```
 
