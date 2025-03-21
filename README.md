@@ -121,6 +121,25 @@ The application comes pre-seeded with:
 - 49,980 polls
 - 16,695 votes
 
+## Screenshots
+
+### Login Page
+<img width="491" alt="1" src="https://github.com/user-attachments/assets/0139c4b9-3f89-494e-92c1-d5af9892bb17" />
+
+### Signup Page
+<img width="492" alt="2" src="https://github.com/user-attachments/assets/d035866d-2f26-49ee-83f0-9624c30dfe9a" />
+
+### Polling Page
+<img width="945" alt="3" src="https://github.com/user-attachments/assets/6b1404dc-d4e8-49a6-8395-92f08eb85f23" />
+<img width="922" alt="4" src="https://github.com/user-attachments/assets/d1fe6f3e-6133-4c3d-86ed-7e4cdfcf6cca" />
+
+### Profile Page
+<img width="934" alt="5" src="https://github.com/user-attachments/assets/e624559c-6051-4e5f-929c-913cf56f9f18" />
+
+### Group Page
+<img width="936" alt="6" src="https://github.com/user-attachments/assets/bccdacea-9f28-445c-a52d-0b8e0ff9a160" />
+
+
 ## License
 
 This project is licensed under the MIT License. 
