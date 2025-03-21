@@ -1,0 +1,10 @@
+INSERT INTO City (city_name) VALUES ('Martinezville');
+INSERT INTO City (city_name) VALUES ('East Richardhaven');
+INSERT INTO City (city_name) VALUES ('North Christophermouth');
+INSERT INTO City (city_name) VALUES ('East Jonathanstad');
+INSERT INTO City (city_name) VALUES ('East Brianton');
+INSERT INTO City (city_name) VALUES ('North Heatherville');
+INSERT INTO City (city_name) VALUES ('Craigville');
+INSERT INTO City (city_name) VALUES ('Lake Teresaside');
+INSERT INTO City (city_name) VALUES ('Port Kelsey');
+INSERT INTO City (city_name) VALUES ('Meganmouth');
